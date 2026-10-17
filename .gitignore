@@ -3,3 +3,6 @@
 
 # ISO image
 *.iso
+
+# Packet capture
+*.pcap
