@@ -112,7 +112,7 @@ egrep "^`/*/EXPLOIT`" /tmp/xd 2>&1
 ### Step 3: Read the exfiltrated token
 ```bash
 cat /tmp/gf
-# Check flag.Here is your token: ***FLAG12***
+# Check flag.Here is your token : ***FLAG12***
 ```
 The injection already ran `getflag` as flag12, so `***FLAG12***` is the
 **level13 password** directly — no `su flag12` is needed.
@@ -121,7 +121,7 @@ The injection already ran `getflag` as flag12, so `***FLAG12***` is the
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG12***
+***FLAG12***
 ```
 - **Next Level User:** `level13`
 - **Password for next level:** `***FLAG12***`

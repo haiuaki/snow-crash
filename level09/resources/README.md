@@ -128,14 +128,14 @@ Then on the VM (the script is passed to `sh` by name, so it runs even without th
 su flag09
 # Password: ***PASS_FLAG09***
 getflag
-# Check flag.Here is your token: ***FLAG09***
+# Check flag.Here is your token : ***FLAG09***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG09***
+***FLAG09***
 ```
 - **Next Level User:** `level10`
 - **Password for next level:** `***FLAG09***`

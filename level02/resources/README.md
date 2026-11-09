@@ -100,19 +100,19 @@ L 0 L                -> ***PASS_FLAG02***
 
 Recovered password: **`***PASS_FLAG02***`**
 
-### Step 5: Authenticate as `flag02` and get the token
+### Step 5: Become flag02 and grab the flag
 ```bash
 su flag02
 # Password: ***PASS_FLAG02***
 getflag
-# Check flag.Here is your token: ***FLAG02***
+# Check flag.Here is your token : ***FLAG02***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG02***
+***FLAG02***
 ```
 - **Next Level User:** `level03`
 - **Password for next level:** `***FLAG02***`

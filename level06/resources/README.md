@@ -90,7 +90,7 @@ The eval'd code becomes `y("{${system(getflag)}}")`; building that string execut
 
 ## 5. Flag
 ```text
-Check flag.Here is your token : ***FLAG06***
+***FLAG06***
 ```
 - **Next Level User:** `level07`
 - **Password for next level:** `***FLAG06***`

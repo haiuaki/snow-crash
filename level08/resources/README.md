@@ -81,14 +81,14 @@ The dumped contents are `flag08`'s password.
 su flag08
 # Password: ***PASS_FLAG08***
 getflag
-# Check flag.Here is your token: ***FLAG08***
+# Check flag.Here is your token : ***FLAG08***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG08***
+***FLAG08***
 ```
 - **Next Level User:** `level09`
 - **Password for next level:** `***FLAG08***`

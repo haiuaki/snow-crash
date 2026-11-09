@@ -103,7 +103,7 @@ The command executed under `system()` is `/bin/echo ; getflag`: the `echo` print
 
 ## 5. Flag
 ```text
-Check flag.Here is your token : ***FLAG07***
+***FLAG07***
 ```
 - **Next Level User:** `level08`
 - **Password for next level:** `***FLAG07***`

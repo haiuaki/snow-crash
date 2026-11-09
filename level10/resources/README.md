@@ -86,14 +86,14 @@ The script runs two loops: one flips `/tmp/x` between a readable bait file and `
 su flag10
 # Password: ***PASS_FLAG10***
 getflag
-# Check flag.Here is your token: ***FLAG10***
+# Check flag.Here is your token : ***FLAG10***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG10***
+***FLAG10***
 ```
 - **Next Level User:** `level11`
 - **Password for next level:** `***FLAG10***`

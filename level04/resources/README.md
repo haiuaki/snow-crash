@@ -61,7 +61,7 @@ The payload we want the **server's shell** to run is `; getflag`, turning `echo 
 
 ```bash
 curl "localhost:4747/?x=%3Bgetflag"
-# Check flag.Here is your token: ***FLAG04***
+# Check flag.Here is your token : ***FLAG04***
 ```
 
 ### Why `%3B` and not a literal `;`
@@ -82,7 +82,7 @@ The server's CGI layer then **URL-decodes** `%3B` back into a real `;` and store
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG04***
+***FLAG04***
 ```
 - **Next Level User:** `level05`
 - **Password for next level:** `***FLAG04***`

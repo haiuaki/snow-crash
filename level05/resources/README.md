@@ -69,7 +69,7 @@ The cron's `su - flag05` executes our script as `flag05`, then removes it.
 ```bash
 while [ ! -f /tmp/flag05 ]; do sleep 5; done
 cat /tmp/flag05
-# Check flag.Here is your token: ***FLAG05***
+# Check flag.Here is your token : ***FLAG05***
 ```
 
 > No `chmod` is needed on `/tmp/flag05`. `getflag` runs as `flag05` and the shell redirect `>` creates the file with the default umask (`022`), i.e. mode `644` — world-readable. So even though the file is **owned by `flag05`**, `level05` can `cat` it straight away.
@@ -78,7 +78,7 @@ cat /tmp/flag05
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG05***
+***FLAG05***
 ```
 - **Next Level User:** `level06`
 - **Password for next level:** `***FLAG05***`

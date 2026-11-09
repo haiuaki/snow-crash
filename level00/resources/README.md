@@ -37,29 +37,27 @@ cat /usr/sbin/john
 ---
 
 ## 4. Exploitation Walkthrough
-1. Decrypt the password using the helper script `caesar.sh`:
+
+### Step 1: Decrypt the password
+Use the helper script `caesar.sh`:
 ```bash
 echo "***ENCODED_FLAG00***" | ./caesar.sh 15
 # Output: ***PASS_FLAG00***
 ```
 
-2. Authenticate as `flag00`:
+### Step 2: Become flag00 and grab the flag
 ```bash
 su flag00
 # Password: ***PASS_FLAG00***
-```
-
-3. Run `getflag` to obtain the token for `level01`:
-```bash
-flag00@SnowCrash:~$ getflag
-Check flag.Here is your token: ***FLAG00***
+getflag
+# Check flag.Here is your token : ***FLAG00***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG00***
+***FLAG00***
 ```
 - **Next Level User:** `level01`
 - **Password for next level:** `***FLAG00***`

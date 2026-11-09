@@ -79,24 +79,20 @@ No `--wordlist` flag is needed: `***PASS_FLAG01***` is present in John's default
 
 The recovered password is confirmed by `su flag01` with `***PASS_FLAG01***` succeeding on the VM. The salt `42` prefixing the stored hash `***HASH_FLAG01***` confirms the traditional DES `crypt(3)` format.
 
-### Step 4: Authenticate as `flag01`
+### Step 4: Become flag01 and grab the flag
 Back in the Snow Crash terminal:
 ```bash
 su flag01
 # Password: ***PASS_FLAG01***
-```
-
-### Step 5: Run `getflag`
-```bash
-flag01@SnowCrash:~$ getflag
-Check flag.Here is your token: ***FLAG01***
+getflag
+# Check flag.Here is your token : ***FLAG01***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG01***
+***FLAG01***
 ```
 - **Next Level User:** `level02`
 - **Password for next level:** `***FLAG01***`

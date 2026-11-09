@@ -63,14 +63,14 @@ which echo          # must resolve to /tmp/echo, not /bin/echo
 ~/level03
 # /usr/bin/env resolves `echo` -> /tmp/echo, which runs as flag03
 # getflag executes with flag03's privileges:
-# Check flag.Here is your token: ***FLAG03***
+# Check flag.Here is your token : ***FLAG03***
 ```
 
 ---
 
 ## 5. Flag
 ```text
-Check flag.Here is your token: ***FLAG03***
+***FLAG03***
 ```
 - **Next Level User:** `level04`
 - **Password for next level:** `***FLAG03***`
