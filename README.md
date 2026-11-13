@@ -12,6 +12,11 @@ of injection and SUID flaws, a race condition, and binary reverse-engineering.
 This repository documents how I approached each level: reconnaissance, root-cause
 analysis, and a reproducible exploitation walkthrough.
 
+> **Subject version.** These writeups target the Snow Crash subject that was current until
+> 2 November 2026. That subject has since been replaced and the levels documented here are
+> deprecated, so this repository is kept as an archive of the technique, not a guide to the
+> current project.
+
 > **Educational use & academic integrity.** These are writeups for a wargame built to be
 > broken, shared for learning and as a portfolio of technique. The literal flag tokens and
 > intermediate passwords have been redacted (shown as `***FLAGXX***`) — the value is in
